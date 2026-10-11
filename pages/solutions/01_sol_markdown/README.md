@@ -1,56 +1,54 @@
-# Przykładowy Dokument Markdown
+# Leonhard Euler – Geniusz Matematyki
 
-## Pierwsza Sekcja
+## Biografia i osiągnięcia
 
-To jest **bardzo ważny fragment**, który został pogrubiony, aby przyciągnąć uwagę czytelnika. Warto również zwrócić uwagę na *pochylony tekst*, podkreślający subtelniejsze akcenty w treści. Wstępny wzór matematyczny w tekście to $E = mc^2$.
+**Leonhard Euler** był szwajcarskim matematykiem i fizykiem, który wniósł ogromny wkład w rozwój wielu dziedzin nauki, takich jak rachunek różniczkowy i całkowy, teoria grafów oraz analiza matematyczna. Uważany jest za *jednego z najwybitniejszych matematyków* w historii. Często błędnie przypisuje się mu stworzenie liczb zespolonych, ale w rzeczywistości ~~nie uciekał się do prostych rozwiązań~~, lecz uporządkował i sformalizował ich teorię.
 
-## Druga Sekcja
+Wzór Eulera dla wielościanów wyraża się jako $V - E + F = 2$, gdzie $V$ to liczba wierzchołków, $E$ krawędzi, a $F$ ścian. Słynna tożsamość $e^{i\pi} + 1 = 0$ łączy w jednym równaniu pięć najważniejszych stałych matematycznych. Ponadto wzór $e^{ix} = \cos(x) + i\sin(x)$ wiąże funkcje wykładnicze z trygonometrycznymi.
 
-W tej części przedstawiamy dodatkowe omówienie. Pamiętaj, że ten element był błędny, więc jest ~~przekreślony~~. Drugi wzór w tekście określa funkcję kwadratową $f(x) = ax^2 + bx + c$, a trzeci to równanie tożsamości Eulera $e^{i\pi} + 1 = 0$.
+Poniżej przedstawiono trzy kluczowe wzory:
 
-### Wzory Blokowe
+$$e^{i\pi} + 1 = 0$$
 
-Poniżej znajdują się trzy reprezentatywne wzory matematyczne wyświetlane jako osobne bloki:
+$$V - E + F = 2$$
 
-$$\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$$
+$$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$$
 
-$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$
+## Wybrane zagadnienia i notacja
 
-$$A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$$
+Euler wprowadził m.in. oznaczenie funkcji $f(x)$, stałą $e$ oraz symbol jednostki urojonej $i$.
 
-### Elementy Listy i Tabele
+### Ważne pojęcia
+* Teoria grafów (problem mostów królewieckich)
+* Liczby pierwsze i hipoteza Riemanna
+* Mechanika płynów i ciała sztywnego
 
-#### Lista Punktowana
-* Pierwszy element listy
-* Drugi element listy
-* Trzeci element listy
+### Chronologia życia
+1. 1707 – Narodziny w Bazylei
+2. 1727 – Przeprowadzka do Petersburga
+3. 1783 – Śmierć w Petersburgu
 
-#### Lista Numerowana
-1. Krok pierwszy
-2. Krok drugi
-3. Krok trzeci
+### Zadania do wykonania
+- [x] Przeczytać biografię Eulera
+- [ ] Przeanalizować dowód na wzór Eulera
+- [ ] Uruchomić skrypt w Colabie
 
-#### Checklist
-- [x] Zadanie ukończone
-- [ ] Zadanie w trakcie realizacji
-- [ ] Zadanie do zrobienia
+### Podsumowanie wkładu naukowego
 
-#### Tabela
-| ID | Nazwa | Wartość |
-| :--- | :--- | :---: |
-| 1 | Element A | 100 |
-| 2 | Element B | 250 |
-| 3 | Element C | 400 |
+| Dziedzina | Główny wkład | Notacja / Odkrycie |
+| :--- | :--- | :--- |
+| Analiza | Rachunek różniczkowy | $e$, $f(x)$ |
+| Geometria | Tożsamość Eulera | $e^{i\pi} + 1 = 0$ |
+| Teoria grafów | Problem mostów królewieckich | Grafy eulerowskie |
 
-### Kod i Narzędzia
-
-Więcej informacji znajdziesz na stronie [Google Colab](http://colab.research.google.com).
+Więcej interaktywnych obliczeń znajdziesz na stronie [Google Colab](http://colab.research.google.com).
 
 ```python
-def powitanie(imie):
-    print(f"Witaj, {imie}!")
+import numpy as np
 
-powitanie("Świat")
+# Przybliżenie wartości e za pomocą ciągu (1 + 1/n)^n
+n = 1000000
+e_approx = (1 + 1/n)**n
+print(f"Przybliżona wartość e: {e_approx}")
 ```
-
 ![Wykres](wykres.png)
