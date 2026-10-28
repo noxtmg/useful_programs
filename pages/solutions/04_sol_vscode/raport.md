@@ -85,7 +85,7 @@ $$x(t) = (v_0 \cos\alpha) t, \qquad y(t) = (v_0 \sin\alpha) t - \frac{1}{2}gt^2.
 
 Wyznaczając czas $t = \frac{x}{v_0 \cos\alpha}$ i podstawiając do $y(t)$, otrzymujemy równanie paraboli:
 
-$$y(x) = x \operatorname{tg}\alpha - \frac{g}{2 v_0^2 \cos^2\alpha} x^2.$$
+$$y(x) = x \tan\alpha - \frac{g}{2 v_0^2 \cos^2\alpha} x^2.$$
 
 Dla danych $v_0 = 36\,\mathrm{m/s}$ oraz $\alpha = 53^\circ$:
 
